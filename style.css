@@ -1,0 +1,30 @@
+*{
+  padding: 12px;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.center{
+  display: flex; 
+  align-items: center;
+  min-width: 100vw;
+  
+}
+main{
+  border: 1px solid black;
+  min-height: 20vh;
+  min-width: 20vh;
+  display: grid;
+  margin: 0 auto; /* Center the grid horizontally */
+  gap: 2px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-cell {
+  background: gainsboro;
+  padding: 1px; /* Reduced padding */
+ 
+
+  all: unset;
+}
